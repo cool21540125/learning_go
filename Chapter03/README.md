@@ -1,0 +1,12 @@
+
+- [查看 runtime 時期的記憶體用量](./Example03.02/main.go)
+- 對於 Bytes, Runes, Char, String 及 unicode
+    - [逐字列印 string, 應該要 string(rune())](./Example03.09/main.go)
+        - [如果只取 string() 會發生出錯(但你可能連怎麼死的都不知道XD)](./Example03.08/main.go)
+        - [如果迴圈直接印只會得到 uint8](./Example03.07/main.go).
+    - [看這個應該會有感覺](./Example03.10/main.go)
+    - [日文字的 unicode 及 string](./Exercise03.05/main.go)
+    - [重設密碼時, 字元合理性驗證的範例](./Exercise03.01/main.go)
+- 數值型別
+    - [int8 與 uint8 的範圍](./Exercise03.03/main.go)
+    - [大數值的型別, 請使用 math](./Exercise03.04/main.go)
