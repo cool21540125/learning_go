@@ -11,7 +11,7 @@
             - param1 為 請求的 location
             - param2 也可以是 anonymous func
         - 但需要注意的是, 這個會把路由設定到 http 套件的 **DefaultServeMux** (這東西就是 http 預設的 ServeMux 結構)
-            - [此範例列出, 明明訪問不同 location, 但卻覺得不怎麼直覺](./Exercise15.02/main.go)
+            - [須留意, 明明訪問不同 location, 但結果卻不符合直覺](./Exercise15.02/main.go)
 - [Server 取得 Query String](./Exercise15.03/main.go)
 - [塞資料到 html/template (template 寫死)](./Exercise15.04/main.go)
     - 由於上述的方式太蠢了(template 字串方式寫死), 請使用下列方式:
